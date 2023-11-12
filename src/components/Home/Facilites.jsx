@@ -18,7 +18,7 @@ import venobox from "venobox";
 import cook1 from "../../assets/about/cook1.webp"
 import bar from "../../assets/about/bar.webp"
 import spa1 from "../../assets/about/spa.webp"
-import homeBig from "../../assets/Home/homebig.webp"
+import homeCover from "../../assets/Home/home-cover.webp"
 const variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 0.5 } },
@@ -172,7 +172,7 @@ const Facilites = () => {
           </div>
         </motion.div>
       </div>
-      <div style={{backgroundImage: `url(${homeBig})`}} className="w-full h-[500px] mt-28 rounded-tr-[60px] rounded-bl-[60px] flex justify-center items-center bg-center">
+      <div style={{backgroundImage: `url(${homeCover})`}} className="w-full h-[500px] mt-28 rounded-tr-[60px] rounded-bl-[60px] flex justify-center items-center bg-center">
         <a
           className="youtube-link"
           data-autoplay="true"

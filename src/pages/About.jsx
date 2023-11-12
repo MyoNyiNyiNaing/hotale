@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import cook1 from "../assets/about/cook1.webp"
 import bar from "../assets/about/bar.webp"
 import spa from "../assets/about/spa.webp"
-import homeBig from "../assets/home/homebig.webp"
+import homeCover from "../assets/Home/home-cover.webp"
 import logo1 from "../assets/about/logo1.webp"
 import logo2 from "../assets/about/logo2.webp"
 import logo3 from "../assets/about/logo3.webp"
@@ -194,7 +194,7 @@ const About = () => {
        </div>
 
         {/* section four  */}
-        <div style={{backgroundImage: `url(${homeBig})`}} className="overflow-hidden bg-cover rounded-[20px] h-[80vh] relative flex justify-center items-center ">
+        <div style={{backgroundImage: `url(${homeCover})`}} className="overflow-hidden bg-cover rounded-[20px] h-[80vh] relative flex justify-center items-center ">
           <div className=" w-[90%] md:w-[60%] text-center z-20">
             <h1 className=" text-[#fff] text-[40px] md:text-[60px] font-[400]">
               Choose from a wide range of{" "}
