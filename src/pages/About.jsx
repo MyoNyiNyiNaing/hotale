@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import cook1 from "../assets/about/cook1.webp"
 import bar from "../assets/about/bar.webp"
 import spa from "../assets/about/spa.webp"
-import homeBig from "../assets/home/homeBig.webp"
+import homeBig from "../assets/home/homebig.webp"
 import logo1 from "../assets/about/logo1.webp"
 import logo2 from "../assets/about/logo2.webp"
 import logo3 from "../assets/about/logo3.webp"
