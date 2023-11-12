@@ -13,7 +13,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import 'venobox/dist/venobox'
 import 'venobox/dist/venobox.min.css'
 import venobox from 'venobox';
-import reviewBig from "../assets/review/reviewBig.webp"
+import reviewBig from "../assets/review/review-big.webp"
 import play from "../assets/review/play.webp"
 import reviewVideo from "../assets/review/review-video.webp"
 
