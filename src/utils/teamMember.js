@@ -1,39 +1,52 @@
+import teamMember1 from "../assets/ourTeam/teamMember1.webp"
+import teamMember2 from "../assets/ourTeam/teamMember2.webp"
+import teamMember3 from "../assets/ourTeam/teamMember3.webp"
+import teamMember4 from "../assets/ourTeam/teamMember4.webp"
+import teamMember5 from "../assets/ourTeam/teamMember5.webp"
+import teamMember6 from "../assets/ourTeam/teamMember6.webp"
+
+import review1 from "../assets/review/review1.webp"
+import review2 from "../assets/review/review2.webp"
+import review3 from "../assets/review/review3.webp"
+import review4 from "../assets/review/review4.webp"
+import review5 from "../assets/review/review5.webp"
+
 export const teamMembers = [
     {
       id: 1,
       name: "Jane Smith", 
       position: "CEO & Founder",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-1-600x600.jpg",
+      image: teamMember1,
     },
     {
       id: 2,
       name: "Paul Smith", 
       position: "General Manager",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-2-600x600.jpg",
+      image: teamMember2,
     },
     {
       id: 3,
       name: "Alisa Doe", 
       position: "Chief Financial Officer",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-3-600x600.jpg",
+      image: teamMember3,
     },
     {
       id: 4,
       name: "Saul Goodman", 
       position: "Building Manager",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-4-600x600.jpg",
+      image: teamMember4,
     },
     {
       id: 5,
       name: "David Wick", 
       position: "Hr Manager",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-5-600x600.jpg",
+      image: teamMember5,
     },
     {
       id: 6,
       name: "John Doe", 
       position: "Marking Leader",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-6-600x600.jpg",
+      image: teamMember6,
     },
   ]
 
@@ -42,31 +55,31 @@ export const teamMembers = [
       id: 1,
       name: "DONNA WILSON",
       address: "New York",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/name1-150x150.jpg"
+      image: review1
     },
     {
       id: 2,
       name: "MICHAEL SMITH",
       address: "Los Angeles",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/name7-150x150.jpg"
+      image: review2
     },
     {
       id: 3,
       name: "CYNTHIA HILL",
       address: "New York",
-      image : "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/name2-150x150.jpg"
+      image : review3
     },
     {
       id: 4,
       name: "BRANDON CARTER",
       address: "London",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/name5-150x150.jpg"
+      image: review4
     },
     {
       id: 5,
       name: "Miko",
       address: "Tokyo",
-      image: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/name6-150x150.jpg"
+      image: review5
     },
 
   ]

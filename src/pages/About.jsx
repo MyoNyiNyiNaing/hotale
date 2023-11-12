@@ -4,6 +4,16 @@ import AboutUsBanner from "../components/AboutUsBanner";
 import LoginModal from "../components/LoginModal";
 import SignupModal from "../components/SignupModal";
 import { AnimatePresence, motion } from "framer-motion";
+import cook1 from "../assets/about/cook1.webp"
+import bar from "../assets/about/bar.webp"
+import spa from "../assets/about/spa.webp"
+import homeBig from "../assets/home/homeBig.webp"
+import logo1 from "../assets/about/logo1.webp"
+import logo2 from "../assets/about/logo2.webp"
+import logo3 from "../assets/about/logo3.webp"
+import logo4 from "../assets/about/logo4.webp"
+import logo5 from "../assets/about/logo5.webp"
+import logo6 from "../assets/about/logo6.webp"
 
 const variants = {
   hidden: { opacity: 0, y: 75 },
@@ -77,7 +87,7 @@ const About = () => {
             <div className=" overflow-hidden">
               <img
                 className=" w-full object-cover  rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/chef-cook.jpg"
+                src={cook1}
                 alt=""
               />
             </div>
@@ -122,7 +132,7 @@ const About = () => {
             <div className=" overflow-hidden">
               <img
                 className=" w-full object-cover rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/bar.jpg"
+                src={bar}
                 alt=""
               />
             </div>
@@ -132,7 +142,7 @@ const About = () => {
             <div className=" overflow-hidden">
               <img
                 className=" w-full object-cover  rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/spa.jpg"
+                src={spa}
                 alt=""
               />
             </div>
@@ -184,7 +194,7 @@ const About = () => {
        </div>
 
         {/* section four  */}
-        <div className="overflow-hidden bg-cover rounded-[20px] h-[80vh] relative flex justify-center items-center bg-[url('https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2022/01/shutterstock_783346942.jpg')]">
+        <div style={{backgroundImage: `url(${homeBig})`}} className="overflow-hidden bg-cover rounded-[20px] h-[80vh] relative flex justify-center items-center ">
           <div className=" w-[90%] md:w-[60%] text-center z-20">
             <h1 className=" text-[#fff] text-[40px] md:text-[60px] font-[400]">
               Choose from a wide range of{" "}
@@ -203,42 +213,42 @@ const About = () => {
           <div className="">
             <img
               className=" max-w-[100px] md:max-w-[120px] lg:max-w-[180px]  "
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/logo1.png"
+              src={logo1}
               alt=""
             />
           </div>
           <div className="">
             <img
               className=" max-w-[100px] md:max-w-[120px] lg:max-w-[180px] "
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/logo2.png"
+              src={logo2}
               alt=""
             />
           </div>
           <div className="">
             <img
               className=" max-w-[100px] md:max-w-[120px] lg:max-w-[180px] "
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/logo3.png"
+              src={logo3}
               alt=""
             />
           </div>
           <div className="">
             <img
               className=" max-w-[100px] md:max-w-[120px] lg:max-w-[180px] "
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/logo4.png"
+              src={logo4}
               alt=""
             />
           </div>
           <div className="">
             <img
               className=" max-w-[100px] md:max-w-[120px] lg:max-w-[180px] "
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/logo5.png"
+              src={logo5}
               alt=""
             />
           </div>
           <div className="">
             <img
               className=" max-w-[100px] md:max-w-[120px] lg:max-w-[180px] "
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/logo6.png"
+              src={logo6}
               alt=""
             />
           </div>

@@ -13,6 +13,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import 'venobox/dist/venobox'
 import 'venobox/dist/venobox.min.css'
 import venobox from 'venobox';
+import reviewBig from "../assets/review/reviewBig.webp"
+import play from "../assets/review/play.webp"
+import reviewVideo from "../assets/review/review-video.webp"
 
 
 const variants = {
@@ -139,8 +142,8 @@ const HotelReview = () => {
         >
           <div className=" h-full">
             <img
-              className=" h-full object-cover"
-              src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/shutterstock_1386982532.jpg"
+              className=" h-full object-cover object-right"
+              src={reviewBig}
               alt=""
             />
           </div>
@@ -200,13 +203,13 @@ const HotelReview = () => {
             <a  className="my-video-links" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?time_continue=2&v=US7bGTUkBfg&feature=emb_title">
               <img
                 className=" w-full object-cover  rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2022/01/review-video-player-bg.jpg"
+                src={reviewVideo}
                 alt=""
               />
               <span className=" absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%]">
                 <img
                   className=" w-[90px] cursor-pointer"
-                  src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/play.png"
+                  src={play}
                   alt=""
                 />
               </span>

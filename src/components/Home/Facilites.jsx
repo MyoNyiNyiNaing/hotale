@@ -9,12 +9,16 @@ import wifi from "../../assets/Home/wifi.png";
 import breakfast from "../../assets/Home/breakfast.svg";
 import workspace from "../../assets/Home/workspace.png";
 import play from "../../assets/Home/play.png";
-import home1 from "../../assets/Home/home1.jpg";
 import BtnAbout from "../BtnAbout";
 import { delay, motion } from "framer-motion";
 import "venobox/dist/venobox";
 import "venobox/dist/venobox.min.css";
 import venobox from "venobox";
+
+import cook1 from "../../assets/about/cook1.webp"
+import bar from "../../assets/about/bar.webp"
+import spa1 from "../../assets/about/spa.webp"
+import homeBig from "../../assets/Home/homeBig.webp"
 const variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 0.5 } },
@@ -168,7 +172,7 @@ const Facilites = () => {
           </div>
         </motion.div>
       </div>
-      <div className="w-full h-[600px] mt-28 rounded-tr-[60px] rounded-bl-[60px] flex justify-center items-center bg-[url('https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/bg-roomm.jpg')] bg-center">
+      <div style={{backgroundImage: `url(${homeBig})`}} className="w-full h-[500px] mt-28 rounded-tr-[60px] rounded-bl-[60px] flex justify-center items-center bg-center">
         <a
           className="youtube-link"
           data-autoplay="true"
@@ -190,7 +194,7 @@ const Facilites = () => {
             <div className=" overflow-hidden col-span-5 lg:col-span-7">
               <img
                 className=" w-full object-cover  rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/chef-cook.jpg"
+                src={cook1}
                 alt=""
               />
             </div>
@@ -235,7 +239,7 @@ const Facilites = () => {
             <div className=" overflow-hidden col-span-5 lg:col-span-7">
               <img
                 className=" w-full object-cover rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/bar.jpg"
+                src={bar}
                 alt=""
               />
             </div>
@@ -247,7 +251,7 @@ const Facilites = () => {
             <div className=" overflow-hidden col-span-5 lg:col-span-7">
               <img
                 className=" w-full object-cover  rounded-[20px] "
-                src="https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/11/spa.jpg"
+                src={spa1}
                 alt=""
               />
             </div>

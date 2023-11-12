@@ -6,6 +6,15 @@ import "@splidejs/react-splide/css/core";
 import "./customSplide.css";
 import { motion } from "framer-motion";
 
+import newoffer1 from "../../assets/Home/newoffer/newoffer1.webp"
+import newoffer2 from "../../assets/Home/newoffer/newoffer2.webp"
+import newoffer3 from "../../assets/Home/newoffer/newoffer3.webp"
+import newoffer4 from "../../assets/Home/newoffer/newoffer4.webp"
+import newoffer5 from "../../assets/Home/newoffer/newoffer5.webp"
+import newoffer6 from "../../assets/Home/newoffer/newoffer6.webp"
+import newoffer7 from "../../assets/Home/newoffer/newoffer7.webp"
+import newoffer8 from "../../assets/Home/newoffer/newoffer8.webp"
+
 const bottomVariants = {
   hidden: { opacity: 0, y: 100 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -15,49 +24,49 @@ const NewsOffers = () => {
   const news = [
     {
       id: 0,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2020/10/roan-lavery-sEcYfPfKOhw-unsplash-700x990.jpg",
+      img: newoffer1,
       title: "Tips For Picking Vacation Accommodation",
       date: "DEC 17, 2021",
     },
     {
       id: 1,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/pexels-photo-25284-700x990.jpg",
+      img: newoffer2,
       title: "What to expect on an African Safari?",
       date: "DEC 17, 2021",
     },
     {
       id: 2,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2020/10/shutterstock_560973166-700x990.jpg",
+      img: newoffer3,
       title: "My 6 Biggest Travel Surprises",
       date: "DEC 17, 2021",
     },
     {
       id: 3,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/pascal-diekmann-707233-unsplash-700x990.jpg",
+      img: newoffer4,
       title: "10 Tips for Taking Your First Solo Trip",
       date: "DEC 17, 2021",
     },
     {
       id: 4,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/pexels-photo-871053-700x990.jpeg",
+      img: newoffer5,
       title: "Why I Quit My Job To Be A Less Occasional Traveller In 2019",
       date: "DEC 17, 2021",
     },
     {
       id: 5,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2020/10/shutterstock_307470824-700x990.jpg",
+      img: newoffer6,
       title: "Where To Travel In Asia From January To Junev",
       date: "DEC 17, 2021",
     },
     {
       id: 6,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2020/10/kelsey-roenau-608583-unsplash-700x990.jpg",
+      img: newoffer7,
       title: "Cities To Visit For Your First Time In Europe",
       date: "DEC 17, 2021",
     },
     {
       id: 7,
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2020/10/aaron-huber-401200-unsplash-700x990.jpg",
+      img: newoffer8,
       title: "Where to travel in 2022: 10 places you need to go in 2022!",
       date: "DEC 17, 2021",
     },

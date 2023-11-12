@@ -4,12 +4,18 @@ import { VscQuote } from "react-icons/vsc";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
 import "./customSplide.css";
+
+import review1 from "../../assets/review/review1.webp"
+import review2 from "../../assets/review/review2.webp"
+import review3 from "../../assets/review/review3.webp"
+import review4 from "../../assets/review/review4.webp"
+import review5 from "../../assets/review/review5.webp"
 const Testimonial = () => {
   const testimonials = [
     {
       id: 0,
       image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer1-150x150.jpg",
+        review1,
       para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
       name: "Joan Smith",
       job: "Solo Traveler",
@@ -17,7 +23,7 @@ const Testimonial = () => {
     {
       id: 1,
       image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer03-150x150.jpg",
+        review2,
       para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
       name: "William Jones",
       job: "Solo Traveler",
@@ -25,7 +31,7 @@ const Testimonial = () => {
     {
       id: 2,
       image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer02-150x150.jpg",
+        review3,
       para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
       name: "Ralph Clark",
       job: "Solo Traveler",
@@ -33,7 +39,7 @@ const Testimonial = () => {
     {
       id: 3,
       image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer1-150x150.jpg",
+        review4,
       para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
       name: "Christopher Lopez",
       job: "Solo Traveler",
@@ -41,27 +47,12 @@ const Testimonial = () => {
     {
       id: 4,
       image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer02-150x150.jpg",
+        review5,
       para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
       name: "Louis Lewis",
       job: "Solo Traveler",
     },
-    {
-      id: 5,
-      image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer1-150x150.jpg",
-      para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
-      name: "Christopher Lopez",
-      job: "Solo Traveler",
-    },
-    {
-      id: 6,
-      image:
-        "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/customer02-150x150.jpg",
-      para: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence.`,
-      name: "Ralph Clark",
-      job: "Solo Traveler",
-    },
+    
   ];
   return (
     <div
