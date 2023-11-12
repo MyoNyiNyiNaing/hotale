@@ -18,7 +18,7 @@ import venobox from "venobox";
 import cook1 from "../../assets/about/cook1.webp"
 import bar from "../../assets/about/bar.webp"
 import spa1 from "../../assets/about/spa.webp"
-import homeBig from "../../assets/Home/homeBig.webp"
+import homeBig from "../../assets/Home/homebig.webp"
 const variants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 0.5 } },
