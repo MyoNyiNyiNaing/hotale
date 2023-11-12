@@ -1,0 +1,25 @@
+#testimonial .splide__pagination {
+  display: flex;
+  gap: 10px;
+}
+#testimonial .splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  transition: 0.3s;
+  background-color: #e2e2e2;
+}
+#testimonial .splide__pagination__page.is-active {
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+}
+#customArrow .splide__arrow svg {
+  height: 5rem;
+}
+#customArrow .splide__arrow--next {
+  right: -5%;
+}
+#customArrow .splide__arrow--prev {
+  left: -5%;
+}

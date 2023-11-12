@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Jost:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-gradient_top {
+  background-image: linear-gradient(rgba(0, 0, 0, 100), rgba(0, 0, 0, 0));
+}
+
+.custom-gradient_bottom {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 100),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.hover-underline-animation_room {
+  @apply inline-flex relative;
+}
+
+.hover-underline-animation_room::after {
+  @apply absolute inline-flex w-full transform scale-x-0 h-[1.5px] bottom-0 left-0 bg-[#848484]/60 origin-bottom-left transition-transform duration-200 ease-out;
+  content: "";
+}
+
+.hover-underline-animation_room:hover::after {
+  @apply transform scale-x-100 origin-bottom-left;
+}
+
+.hover-underline-animation_blog {
+  @apply inline-flex relative;
+}
+
+.hover-underline-animation_blog::after {
+  @apply absolute inline-flex w-full transform scale-x-0 h-[1px] bottom-1 left-0 bg-[#848484] origin-center transition-transform duration-200 ease-out;
+  content: "";
+}
+
+.hover-underline-animation_blog:hover::after {
+  @apply transform scale-x-100 origin-center;
+}

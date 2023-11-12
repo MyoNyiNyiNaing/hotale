@@ -1,0 +1,78 @@
+.top-page.is-active {
+    background-color: black !important;
+    border: 1px solid black !important;
+    padding: 6px;
+    transform: scale(1);
+}
+
+.top-page{
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    padding: 6px !important;
+    transition: .5s;
+}
+
+.top-pagination {
+    margin-bottom: -4rem;
+}
+
+.bottom-pagination  {
+    margin-bottom: 8rem;
+    gap: 3px;
+    
+}
+
+.bottom-page{
+    background-color: white !important;
+    opacity: 1 !important;
+    transition: .5s;
+}
+
+.bottom-page.is-active {
+    background-color: white !important;
+    opacity: 1 !important;
+    transform: scale(1.5);
+}
+
+@media (max-width: 800px) {
+    .bottom-pagination {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .bottom-pagination {
+      margin-bottom: 4rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bottom-pagination {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .top-review-carousel::before {
+    content: url('https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/12/bg-testimonail-1.jpg');
+    position: absolute;
+    /* transform: translateX(-300px) translateY(-250px); */
+    top: -250px;
+    left: -350px;
+   z-index: -1;
+  }
+
+  .hotel-review::before{
+    content: url('https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2022/01/review-video-bg-1.png');
+    position: absolute;
+    z-index: -1;
+    top: -75px;
+    left: 200px;
+
+  }
+
+
+
+
+
+
+
